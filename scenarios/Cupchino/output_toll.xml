@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE roadpricing SYSTEM "http://www.matsim.org/files/dtd/roadpricing_v1.dtd">
+<roadpricing type="cordon" name="equil-net cordon-toll">
+	<description>A simple cordon toll scheme for the equil-network.</description>
+	<links>
+		<link id="461676671_0">
+	<cost start_time="00:00:00" end_time="25:00:00" amount="24.33" />
+</link>		</links>
+	<!-- [monetary unit] / [travelling across a tolled link] -->
+	<cost start_time="00:00:00" end_time="25:00:00" amount="0.0" />
+</roadpricing>
