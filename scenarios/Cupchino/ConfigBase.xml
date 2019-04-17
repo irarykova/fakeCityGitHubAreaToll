@@ -16,11 +16,11 @@
 	</module>
 
 	<module name="roadpricing">
-		<param name="tollLinksFile" value="tolls.xml" />
+		<param name="tollLinksFile" value="tollsTest.xml" />
 	</module>
 
 	<module name="controler">
-		<param name="outputDirectory" value="./output/CupchinoBaseNewParams" />
+		<param name="outputDirectory" value="./output/CupchinoBaseTollTests" />
 		<param name="firstIteration" value="0" />
 		<param name="lastIteration" value="50" />
 	</module>
@@ -67,6 +67,13 @@
 		<param name="ModuleProbability_2" value="0.1" />
 		<param name="Module_2" value="ReRoute" />
 		<param name="ModuleDisableAfterIteration_2" value="47" />
+	</module>
+
+	<module name="transit">
+		<param name="transitScheduleFile" value="transitschedule.xml" />
+		<param name="vehiclesFile" value="transitVehicles.xml" />
+		<param name="transitModes" value="pt" />
+		<param name="useTransit" value="true" />
 	</module>
 
 </config>

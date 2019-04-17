@@ -52,7 +52,7 @@ public class RunMatsim {
         Config config ;
         if ( args.length==0 || args[0]=="" ) {
             config = ConfigUtils.loadConfig( "scenarios/Cupchino/ConfigBase.xml",new RoadPricingConfigGroup()) ;
-            config.controler().setLastIteration(10);
+            //config.controler().setLastIteration(10);
             config.controler().setOverwriteFileSetting( OverwriteFileSetting.deleteDirectoryIfExists );
         } else {
             config = ConfigUtils.loadConfig(args[0]) ;

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE roadpricing SYSTEM "http://www.matsim.org/files/dtd/roadpricing_v1.dtd">
+
+ <roadpricing type="cordon" name="cupchino-toll">
+
+        <description>A simple cordon toll scheme for the equil-network.</description>
+
+    <links>
+        <link id="60">
+            <cost start_time="00:00" end_time="25:00" amount="1000.01" />
+        </link>
+    </links>
+    <cost start_time="00:00" end_time="25:00" amount="0.00" />
+</roadpricing>

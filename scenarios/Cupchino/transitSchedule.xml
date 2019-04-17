@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transitSchedule SYSTEM "http://www.matsim.org/files/dtd/transitSchedule_v2.dtd">
+
+<transitSchedule>
+
+	<transitStops>
+		<stopFacility id="1" x="100" y="0" linkRefId="1" name="Poselok Upravlencheskii" isBlocking="false"/>
+		<stopFacility id="2" x="12100" y="-20900" linkRefId="os2" name="Avtovokzal Tsentralnyi" isBlocking="false"/>
+		
+	</transitStops>
+	<transitLine id="1BUS">
+		<transitRoute id="1BUS_0">
+			<transportMode>pt</transportMode>
+			<routeProfile>
+				<stop refId="2" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="false"/>
+				<stop refId="1" arrivalOffset="01:00:54" departureOffset="01:01:24" awaitDeparture="false"/>
+
+			</routeProfile>
+			<route>
+				<link refId="os2"/>
+				<link refId="o2"/>
+				<link refId="20"/>
+				<link refId="-2"/>
+				<link refId="1"/>
+			</route>
+			<departures>
+				<departure id="0" departureTime="04:57:00" vehicleRefId="Bus_1"/>
+				<departure id="1" departureTime="05:26:00" vehicleRefId="Bus_1"/>
+			</departures>
+		</transitRoute>
+	</transitLine>
+	
+</transitSchedule>
