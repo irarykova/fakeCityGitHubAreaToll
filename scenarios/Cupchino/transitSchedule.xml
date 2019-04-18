@@ -4,10 +4,14 @@
 <transitSchedule>
 
 	<transitStops>
-		<stopFacility id="1" x="100" y="0" linkRefId="1" name="Poselok Upravlencheskii" isBlocking="false"/>
-		<stopFacility id="2" x="12100" y="-20900" linkRefId="os2" name="Avtovokzal Tsentralnyi" isBlocking="false"/>
-		
+		<stopFacility id="1" x="100" y="0" linkRefId="1" name="stop uno" isBlocking="false"/>
+		<stopFacility id="2" x="12100" y="-20900" linkRefId="os2" name="stop dos" isBlocking="false"/>
+		<stopFacility id="3" x="-24100.0" y="5.0" linkRefId="os4" name="stop tres" isBlocking="false"/>
+		<stopFacility id="4" x="-220" y="380" linkRefId="5" name="stop cuadro" isBlocking="false"/>
+
+
 	</transitStops>
+
 	<transitLine id="1BUS">
 		<transitRoute id="1BUS_0">
 			<transportMode>pt</transportMode>
@@ -19,13 +23,39 @@
 			<route>
 				<link refId="os2"/>
 				<link refId="o2"/>
-				<link refId="20"/>
-				<link refId="-2"/>
+				<link refId="01pt"/>
+				<link refId="02pt"/>
+				<link refId="03pt"/>
 				<link refId="1"/>
 			</route>
 			<departures>
-				<departure id="0" departureTime="04:57:00" vehicleRefId="Bus_1"/>
-				<departure id="1" departureTime="05:26:00" vehicleRefId="Bus_1"/>
+				<departure id="0" departureTime="06:05:00" vehicleRefId="Bus_1"/>
+				<departure id="1" departureTime="06:26:00" vehicleRefId="Bus_1"/>
+			</departures>
+		</transitRoute>
+	</transitLine>
+
+	<transitLine id="2BUS">
+		<transitRoute id="2BUS_0">
+			<transportMode>pt</transportMode>
+			<routeProfile>
+				<stop refId="3" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="false"/>
+				<stop refId="4" arrivalOffset="01:00:20" departureOffset="01:01:04" awaitDeparture="false"/>
+
+			</routeProfile>
+			<route>
+				<link refId="os4"/>
+				<link refId="o4"/>
+				<link refId="04pt"/>
+				<link refId="05pt"/>
+				<link refId="06pt"/>
+				<link refId="5"/>
+
+			</route>
+			<departures>
+				<departure id="3" departureTime="06:10:00" vehicleRefId="Bus_1"/>
+				<departure id="4" departureTime="06:30:00" vehicleRefId="Bus_1"/>
+
 			</departures>
 		</transitRoute>
 	</transitLine>

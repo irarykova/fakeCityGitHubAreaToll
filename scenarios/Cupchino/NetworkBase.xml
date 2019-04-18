@@ -9,8 +9,10 @@
         <!--Cyrcle-->
         <node id="1" x="12000.0" y="0.0" ></node>
         <node id="2" x="6000.0" y="-10390.0" ></node>
+        <node id="2pt" x="5800.0" y="-8035.0" ></node>
         <node id="3" x="-6000.0" y="-10390.0" ></node>
         <node id="4" x="-12000.0" y="0.0" ></node>
+        <node id="4pt" x="-11630.0" y="-173.0" ></node>
         <node id="5" x="-6000.0" y="10390.0" ></node>
         <node id="6" x="6000.0" y="10390.0" ></node>
 
@@ -33,8 +35,11 @@
         <!--real core-->
         <node id="01" x="1200.0" y="0.0" ></node>
         <node id="02" x="600.0" y="-1039.0" ></node>
+        <node id="02pt" x="1350.0" y="-745.0" ></node>
         <node id="03" x="-600.0" y="-1039.0" ></node>
         <node id="04" x="-1200.0" y="0.0" ></node>
+        <node id="04pt" x="-1200.0" y="-200.0" ></node>
+
         <node id="05" x="-600.0" y="1039.0" ></node>
         <node id="06" x="600.0" y="1039.0" ></node>
 
@@ -100,6 +105,7 @@
 
         <link id="o3" from="3_o" to="3" length="12000.0" freespeed="22.2" capacity="300.0" permlanes="1.0" oneway="1" modes="car,pt" ></link>
         <link id="o4" from="4_o" to="4" length="12000.0" freespeed="22.2" capacity="300.0" permlanes="1.0" oneway="1" modes="car,pt" ></link>
+        <link id="o4_0" from="4" to="4_o" length="12000.0" freespeed="22.2" capacity="300.0" permlanes="1.0" oneway="1" modes="car,pt" ></link>
         <link id="o5" from="5_o" to="5" length="12000.0" freespeed="22.2" capacity="300.0" permlanes="1.0" oneway="1" modes="car,pt" ></link>
         <link id="o6" from="6_o" to="6" length="12000.0" freespeed="22.2" capacity="300.0" permlanes="1.0" oneway="1" modes="car,pt" ></link>
 
@@ -109,10 +115,23 @@
         <link id="os2_0" from="2_o" to="2_os" length="12000.0" freespeed="22.2" capacity="300.0" permlanes="1.0" oneway="1" modes="car,pt" ></link>
         <link id="os3" from="3_os" to="3_o" length="12000.0" freespeed="22.2" capacity="300.0" permlanes="1.0" oneway="1" modes="car,pt" ></link>
         <link id="os4" from="4_os" to="4_o" length="12000.0" freespeed="22.2" capacity="300.0" permlanes="1.0" oneway="1" modes="car,pt" ></link>
+        <link id="os4_0" from="4_o" to="4_os" length="12000.0" freespeed="22.2" capacity="300.0" permlanes="1.0" oneway="1" modes="car,pt" ></link>
         <link id="os5" from="5_os" to="5_o" length="12000.0" freespeed="22.2" capacity="300.0" permlanes="1.0" oneway="1" modes="car,pt" ></link>
         <link id="os6" from="6_os" to="6_o" length="12000.0" freespeed="22.2" capacity="300.0" permlanes="1.0" oneway="1" modes="car,pt" ></link>
 
-
+        <!--links for bus lane-->
+        <link id="01pt" from="2" to="2pt" length="1000.0" freespeed="30.2" capacity="60.0" permlanes="1.0" oneway="1" modes="pt" ></link>
+        <link id="02pt" from="2pt" to="02pt" length="10000.0" freespeed="30.2" capacity="60.0" permlanes="1.0" oneway="1" modes="pt" ></link>
+        <link id="03pt" from="02pt" to="0" length="1000.0" freespeed="30.2" capacity="60.0" permlanes="1.0" oneway="1" modes="pt" ></link>
+        <link id="10pt" from="2pt" to="2" length="1000.0" freespeed="30.2" capacity="60.0" permlanes="1.0" oneway="1" modes="pt" ></link>
+        <link id="20pt" from="02pt" to="2pt" length="10000.0" freespeed="30.2" capacity="60.0" permlanes="1.0" oneway="1" modes="pt" ></link>
+        <link id="30pt" from="0" to="02pt" length="1000.0" freespeed="30.2" capacity="60.0" permlanes="1.0" oneway="1" modes="pt" ></link>
+        <link id="04pt" from="4" to="4pt" length="1000.0" freespeed="30.2" capacity="60.0" permlanes="1.0" oneway="1" modes="pt" ></link>
+        <link id="40pt" from="4pt" to="4" length="1000.0" freespeed="30.2" capacity="60.0" permlanes="1.0" oneway="1" modes="pt" ></link>
+        <link id="05pt" from="4pt" to="04pt" length="10000.0" freespeed="30.2" capacity="60.0" permlanes="1.0" oneway="1" modes="pt" ></link>
+        <link id="50pt" from="04pt" to="4pt" length="10000.0" freespeed="30.2" capacity="60.0" permlanes="1.0" oneway="1" modes="pt" ></link>
+        <link id="06pt" from="04pt" to="0" length="1000.0" freespeed="30.2" capacity="60.0" permlanes="1.0" oneway="1" modes="pt" ></link>
+        <link id="60pt" from="0" to="04pt" length="1000.0" freespeed="30.2" capacity="60.0" permlanes="1.0" oneway="1" modes="pt" ></link>
 
     </links>
 </network>

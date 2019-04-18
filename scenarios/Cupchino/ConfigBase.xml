@@ -22,13 +22,13 @@
 	<module name="controler">
 		<param name="outputDirectory" value="./output/CupchinoBaseTollTests" />
 		<param name="firstIteration" value="0" />
-		<param name="lastIteration" value="50" />
+		<param name="lastIteration" value="10" />
 	</module>
 
 	<module name="qsim">
 		<!-- "start/endTime" of MobSim (00:00:00 == take earliest activity time/ run as long as active vehicles exist) -->
 		<param name="startTime" value="00:00:00" />
-		<param name="endTime" value="00:00:00" />
+		<param name="endTime" value="25:00:00" />
 		<param name="numberOfThreads" value="16"/>
 		<param name = "snapshotperiod"	value = "00:00:00"/> <!-- 00:00:00 means NO snapshot writing -->
 	</module>
@@ -42,7 +42,7 @@
 		<param name="performing" value="+600" />
 		<param name="traveling" value="-720" />
 		<param name="waiting" value="-0" />
-        <param name="walking" value="-1000" />
+        <param name="travelingWalk" value="-6000" />
 		
 		<param name="activityType_0"            value="h" /> <!-- home -->
 		<param name="activityPriority_0"        value="1" />
