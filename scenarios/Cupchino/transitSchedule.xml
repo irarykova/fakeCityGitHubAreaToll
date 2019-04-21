@@ -16,8 +16,8 @@
 		<transitRoute id="1BUS_0">
 			<transportMode>pt</transportMode>
 			<routeProfile>
-				<stop refId="2" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="false"/>
-				<stop refId="1" arrivalOffset="01:00:54" departureOffset="01:01:24" awaitDeparture="false"/>
+				<stop refId="2" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="1" arrivalOffset="00:20:54" departureOffset="00:21:24" awaitDeparture="true"/>
 
 			</routeProfile>
 			<route>
@@ -30,7 +30,10 @@
 			</route>
 			<departures>
 				<departure id="0" departureTime="06:05:00" vehicleRefId="Bus_1"/>
-				<departure id="1" departureTime="06:26:00" vehicleRefId="Bus_1"/>
+				<departure id="1" departureTime="06:25:00" vehicleRefId="Bus_2"/>
+				<departure id="2" departureTime="06:45:00" vehicleRefId="Bus_3"/>
+				<departure id="3" departureTime="07:05:00" vehicleRefId="Bus_4"/>
+
 			</departures>
 		</transitRoute>
 	</transitLine>
@@ -53,8 +56,8 @@
 
 			</route>
 			<departures>
-				<departure id="3" departureTime="06:10:00" vehicleRefId="Bus_1"/>
-				<departure id="4" departureTime="06:30:00" vehicleRefId="Bus_1"/>
+				<departure id="2" departureTime="06:10:00" vehicleRefId="Bus_5"/>
+				<departure id="3" departureTime="06:30:00" vehicleRefId="Bus_6"/>
 
 			</departures>
 		</transitRoute>

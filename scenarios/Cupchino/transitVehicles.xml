@@ -3,11 +3,17 @@
 	<vehicleType id="PAZ32030208">
 		<description/>
 		<capacity>
-			<seats persons="20"/>
-			<standingRoom persons="50"/>
+			<seats persons="40"/>
+			<standingRoom persons="90"/>
 		</capacity>
-		<length meter="28.09"/>
+		<length meter="35.09"/>
 	</vehicleType>
 	
 <vehicle id="Bus_1" type="PAZ32030208"/>
+<vehicle id="Bus_2" type="PAZ32030208"/>
+<vehicle id="Bus_3" type="PAZ32030208"/>
+<vehicle id="Bus_4" type="PAZ32030208"/>
+<vehicle id="Bus_5" type="PAZ32030208"/>
+<vehicle id="Bus_6" type="PAZ32030208"/>
+
 </vehicleDefinitions>

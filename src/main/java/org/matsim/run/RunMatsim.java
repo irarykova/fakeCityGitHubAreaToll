@@ -85,7 +85,7 @@ public class RunMatsim {
 
 
         //Coord wCoord = new Coord(-3000+Math.random()*6000,-3000+Math.random()*3000);
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 1000; i++) {
             Person person_1 = populationFactory.createPerson(Id.createPersonId("agent_from_4_" + i));
             Plan plan_1 = populationFactory.createPlan();
             Activity activity1_1 = populationFactory.createActivityFromCoord("h", hCoord1);
