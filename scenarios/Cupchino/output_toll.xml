@@ -3,9 +3,109 @@
 <roadpricing type="cordon" name="equil-net cordon-toll">
 	<description>A simple cordon toll scheme for the equil-network.</description>
 	<links>
-		<link id="461676671_0">
-	<cost start_time="00:00:00" end_time="25:00:00" amount="24.33" />
-</link>		</links>
+		<!-- bridges -->
+		<link id="156494646_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="157365375_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="4456201_1">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="32501557_1">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="180836355_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="242442742_1">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="-160470_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="143874150_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="133321814_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="27755511_1">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="308283097_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="27755524_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="33190179_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="308301802_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="397364727_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="346589648_1">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="397350644_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="172459430_0_r">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="139000819_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+		<link id="4460710_0_r">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="143.39" />
+		</link>
+
+		<!-- zsd viezdy -->
+		<link id="80056742_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="28935141_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="28935158_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="-160044_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="312063993_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="127122822_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="127122830_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="224933663_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="224933664_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="252148968_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="28935150_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="80056716_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="183921953_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+	</links>
 	<!-- [monetary unit] / [travelling across a tolled link] -->
 	<cost start_time="00:00:00" end_time="25:00:00" amount="0.0" />
 </roadpricing>

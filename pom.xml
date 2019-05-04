@@ -38,6 +38,12 @@
 			<artifactId>roadpricing</artifactId>
 			<version>0.10.0</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.matsim.contrib/emissions -->
+		<dependency>
+			<groupId>org.matsim.contrib</groupId>
+			<artifactId>emissions</artifactId>
+			<version>0.10.1</version>
+		</dependency>
         <dependency>
             <groupId>org.matsim.contrib</groupId>
             <artifactId>accessibility</artifactId>

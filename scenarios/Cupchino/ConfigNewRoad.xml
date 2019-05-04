@@ -8,11 +8,11 @@
 	</module>
 
 	<module name="network">
-		<param name="inputNetworkFile" value="NetworkTollRoad.xml" />
+		<param name="inputNetworkFile" value="network_horizon2021_1.xml" />
 	</module>
 
 	<module name="plans">
-		<param name="inputPlansFile" value="0.plans.xml.gz" />
+		<param name="inputPlansFile" value="output_plans.xml" />
 	</module>
 	<!--
 	<module name="roadpricing">
@@ -23,7 +23,7 @@
 	<module name="controler">
 		<param name="outputDirectory" value="./output/CupchinoNewRoad" />
 		<param name="firstIteration" value="0" />
-		<param name="lastIteration" value="50" />
+		<param name="lastIteration" value="10" />
 	</module>
 
 
