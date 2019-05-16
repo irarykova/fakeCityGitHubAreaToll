@@ -35,6 +35,13 @@ import org.matsim.roadpricing.ControlerDefaultsWithRoadPricingModule;
 import org.matsim.roadpricing.RoadPricingConfigGroup;
 import org.matsim.contrib.emissions.example.RunEmissionToolOnlineExampleV2;
 
+import org.matsim.utils.gis.matsim2esri.network.FeatureGeneratorBuilderImpl;
+import org.matsim.utils.gis.matsim2esri.network.LanesBasedWidthCalculator;
+import org.matsim.utils.gis.matsim2esri.network.LineStringBasedFeatureGenerator;
+import org.matsim.utils.gis.matsim2esri.network.Links2ESRIShape;
+import org.matsim.utils.gis.matsim2esri.plans.SelectedPlans2ESRIShape;
+import org.matsim.core.utils.geometry.geotools.MGC;
+
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -45,9 +52,9 @@ public class RunMatsim2021 {
 
     public static void main(String[] args) {
 
-        //Config config = ConfigUtils.loadConfig( "scenarios/Cupchino/ConfigBase2021_1.xml", new ConfigGroup[]{new EmissionsConfigGroup()}) ;
-        Config config = ConfigUtils.loadConfig( "scenarios/Cupchino/ConfigBase2021_1.xml") ;
-            //config.controler().setLastIteration(10);
+        //Config config = ConfigUtils.loadConfig( "scenarios/Cupchino/config_0_2019.xml", new ConfigGroup[]{new EmissionsConfigGroup()}) ;
+        Config config = ConfigUtils.loadConfig( "scenarios/Cupchino/config_0_2019.xml") ;
+            //config.controler().setLastIteration(100);
             config.controler().setOverwriteFileSetting( OverwriteFileSetting.deleteDirectoryIfExists );
 
         Scenario scenario = ScenarioUtils.loadScenario(config);
@@ -62,7 +69,22 @@ public class RunMatsim2021 {
 //        });
         controler.setModules(new ControlerDefaultsWithRoadPricingModule());
         controler.run();
+        String shp = "shp/baseNetwork.shp";
+        createShp(scenario, shp);
 
+
+    }
+    private static void createShp(Scenario scenario, String shp){
+        FeatureGeneratorBuilderImpl builder = new FeatureGeneratorBuilderImpl(scenario.getNetwork(), "EPSG:32635");
+
+        LanesBasedWidthCalculator widthCalculator = new LanesBasedWidthCalculator(scenario.getNetwork(), 0.5);
+        LineStringBasedFeatureGenerator lineGenerator = new LineStringBasedFeatureGenerator(widthCalculator, MGC.getCRS("EPSG:32635"));
+        builder.setFeatureGeneratorPrototype(lineGenerator.getClass());
+
+        Links2ESRIShape links2ESRIShape = new Links2ESRIShape(scenario.getNetwork(), shp, builder);
+        links2ESRIShape.write();
+        //SelectedPlans2ESRIShape plans2ESRIShape = new SelectedPlans2ESRIShape(scenario.getPopulation(), scenario.getNetwork(),MGC.getCRS("EPSG:32635"),"shp");
+        //plans2ESRIShape.write();
 
     }
 }
