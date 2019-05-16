@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vehicleDefinitions xmlns="http://www.matsim.org/files/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.matsim.org/files/dtd http://www.matsim.org/files/dtd/vehicleDefinitions_v1.0.xsd">
+	<vehicleType id="train_2">
+		<capacity>
+			<seats persons="864"/>
+			<standingRoom persons="736"/>
+		</capacity>
+		<length meter="7.5"/>
+		<width meter="1.0"/>
+		<maximumVelocity meterPerSecond="16.666666666666668"/>
+		<accessTime secondsPerPerson="1.0"/>
+		<egressTime secondsPerPerson="1.0"/>
+		<doorOperation mode="serial"/>
+		<passengerCarEquivalents pce="1.0"/>
+	</vehicleType>
+	<vehicleType id="train_1">
+		<capacity>
+			<seats persons="864"/>
+			<standingRoom persons="736"/>
+		</capacity>
+		<length meter="7.5"/>
+		<width meter="1.0"/>
+		<maximumVelocity meterPerSecond="16.666666666666668"/>
+		<accessTime secondsPerPerson="1.0"/>
+		<egressTime secondsPerPerson="1.0"/>
+		<doorOperation mode="serial"/>
+		<passengerCarEquivalents pce="1.0"/>
+	</vehicleType>
+	<vehicleType id="bus_1_1">
+		<capacity>
+			<seats persons="44"/>
+			<standingRoom persons="44"/>
+		</capacity>
+		<length meter="7.5"/>
+		<width meter="1.0"/>
+		<maximumVelocity meterPerSecond="16.666666666666668"/>
+		<accessTime secondsPerPerson="1.0"/>
+		<egressTime secondsPerPerson="1.0"/>
+		<doorOperation mode="serial"/>
+		<passengerCarEquivalents pce="1.0"/>
+	</vehicleType>
+	<vehicleType id="bus_1_2">
+		<capacity>
+			<seats persons="44"/>
+			<standingRoom persons="44"/>
+		</capacity>
+		<length meter="7.5"/>
+		<width meter="1.0"/>
+		<maximumVelocity meterPerSecond="16.666666666666668"/>
+		<accessTime secondsPerPerson="1.0"/>
+		<egressTime secondsPerPerson="1.0"/>
+		<doorOperation mode="serial"/>
+		<passengerCarEquivalents pce="1.0"/>
+	</vehicleType>
+	<vehicle id="train_2310" type="train_2"/>
+	<vehicle id="train_2370" type="train_2"/>
+	<vehicle id="train_2430" type="train_2"/>
+	<vehicle id="train_2490" type="train_2"/>
+	<vehicle id="train_2550" type="train_2"/>
+	<vehicle id="train_2610" type="train_2"/>
+	<vehicle id="train_2670" type="train_2"/>
+	<vehicle id="train_2730" type="train_2"/>
+	<vehicle id="train_2790" type="train_2"/>
+	<vehicle id="train_2850" type="train_2"/>
+	<vehicle id="train_2910" type="train_2"/>
+	<vehicle id="train_2970" type="train_2"/>
+	<vehicle id="train_21030" type="train_2"/>
+	<vehicle id="train_21090" type="train_2"/>
+	<vehicle id="train_21150" type="train_2"/>
+	<vehicle id="train_21210" type="train_2"/>
+	<vehicle id="train_21270" type="train_2"/>
+	<vehicle id="train_1310" type="train_1"/>
+	<vehicle id="train_1370" type="train_1"/>
+	<vehicle id="train_1430" type="train_1"/>
+	<vehicle id="train_1490" type="train_1"/>
+	<vehicle id="train_1550" type="train_1"/>
+	<vehicle id="train_1610" type="train_1"/>
+	<vehicle id="train_1670" type="train_1"/>
+	<vehicle id="train_1730" type="train_1"/>
+	<vehicle id="train_1790" type="train_1"/>
+	<vehicle id="train_1850" type="train_1"/>
+	<vehicle id="train_1910" type="train_1"/>
+	<vehicle id="train_1970" type="train_1"/>
+	<vehicle id="train_11030" type="train_1"/>
+	<vehicle id="train_11090" type="train_1"/>
+	<vehicle id="train_11150" type="train_1"/>
+	<vehicle id="train_11210" type="train_1"/>
+	<vehicle id="train_11270" type="train_1"/>
+	<vehicle id="bus_1_1340" type="bus_1_1"/>
+	<vehicle id="bus_1_1355" type="bus_1_1"/>
+	<vehicle id="bus_1_1370" type="bus_1_1"/>
+	<vehicle id="bus_1_1385" type="bus_1_1"/>
+	<vehicle id="bus_1_1400" type="bus_1_1"/>
+	<vehicle id="bus_1_1415" type="bus_1_1"/>
+	<vehicle id="bus_1_1430" type="bus_1_1"/>
+	<vehicle id="bus_1_1445" type="bus_1_1"/>
+	<vehicle id="bus_1_1460" type="bus_1_1"/>
+	<vehicle id="bus_1_1475" type="bus_1_1"/>
+	<vehicle id="bus_1_1490" type="bus_1_1"/>
+	<vehicle id="bus_1_1505" type="bus_1_1"/>
+	<vehicle id="bus_1_1520" type="bus_1_1"/>
+	<vehicle id="bus_1_1535" type="bus_1_1"/>
+	<vehicle id="bus_1_1550" type="bus_1_1"/>
+	<vehicle id="bus_1_1565" type="bus_1_1"/>
+	<vehicle id="bus_1_1580" type="bus_1_1"/>
+	<vehicle id="bus_1_1595" type="bus_1_1"/>
+	<vehicle id="bus_1_1610" type="bus_1_1"/>
+	<vehicle id="bus_1_1625" type="bus_1_1"/>
+	<vehicle id="bus_1_1640" type="bus_1_1"/>
+	<vehicle id="bus_1_1655" type="bus_1_1"/>
+	<vehicle id="bus_1_1670" type="bus_1_1"/>
+	<vehicle id="bus_1_1685" type="bus_1_1"/>
+	<vehicle id="bus_1_1700" type="bus_1_1"/>
+	<vehicle id="bus_1_1715" type="bus_1_1"/>
+	<vehicle id="bus_1_1730" type="bus_1_1"/>
+	<vehicle id="bus_1_1745" type="bus_1_1"/>
+	<vehicle id="bus_1_1760" type="bus_1_1"/>
+	<vehicle id="bus_1_1775" type="bus_1_1"/>
+	<vehicle id="bus_1_1790" type="bus_1_1"/>
+	<vehicle id="bus_1_1805" type="bus_1_1"/>
+	<vehicle id="bus_1_1820" type="bus_1_1"/>
+	<vehicle id="bus_1_1835" type="bus_1_1"/>
+	<vehicle id="bus_1_1850" type="bus_1_1"/>
+	<vehicle id="bus_1_1865" type="bus_1_1"/>
+	<vehicle id="bus_1_1880" type="bus_1_1"/>
+	<vehicle id="bus_1_1895" type="bus_1_1"/>
+	<vehicle id="bus_1_1910" type="bus_1_1"/>
+	<vehicle id="bus_1_1925" type="bus_1_1"/>
+	<vehicle id="bus_1_1940" type="bus_1_1"/>
+	<vehicle id="bus_1_1955" type="bus_1_1"/>
+	<vehicle id="bus_1_1970" type="bus_1_1"/>
+	<vehicle id="bus_1_1985" type="bus_1_1"/>
+	<vehicle id="bus_1_11000" type="bus_1_1"/>
+	<vehicle id="bus_1_11015" type="bus_1_1"/>
+	<vehicle id="bus_1_11030" type="bus_1_1"/>
+	<vehicle id="bus_1_11045" type="bus_1_1"/>
+	<vehicle id="bus_1_11060" type="bus_1_1"/>
+	<vehicle id="bus_1_11075" type="bus_1_1"/>
+	<vehicle id="bus_1_11090" type="bus_1_1"/>
+	<vehicle id="bus_1_11105" type="bus_1_1"/>
+	<vehicle id="bus_1_11120" type="bus_1_1"/>
+	<vehicle id="bus_1_11135" type="bus_1_1"/>
+	<vehicle id="bus_1_11150" type="bus_1_1"/>
+	<vehicle id="bus_1_11165" type="bus_1_1"/>
+	<vehicle id="bus_1_11180" type="bus_1_1"/>
+	<vehicle id="bus_1_11195" type="bus_1_1"/>
+	<vehicle id="bus_1_11210" type="bus_1_1"/>
+	<vehicle id="bus_1_11225" type="bus_1_1"/>
+	<vehicle id="bus_1_11240" type="bus_1_1"/>
+	<vehicle id="bus_1_11255" type="bus_1_1"/>
+	<vehicle id="bus_1_11270" type="bus_1_1"/>
+	<vehicle id="bus_1_11285" type="bus_1_1"/>
+	<vehicle id="bus_1_11300" type="bus_1_1"/>
+	<vehicle id="bus_1_11315" type="bus_1_1"/>
+	<vehicle id="bus_1_11330" type="bus_1_1"/>
+	<vehicle id="bus_1_11345" type="bus_1_1"/>
+	<vehicle id="bus_1_11360" type="bus_1_1"/>
+	<vehicle id="bus_1_11375" type="bus_1_1"/>
+	<vehicle id="bus_1_11390" type="bus_1_1"/>
+	<vehicle id="bus_1_11405" type="bus_1_1"/>
+	<vehicle id="bus_1_11420" type="bus_1_1"/>
+	<vehicle id="bus_1_11435" type="bus_1_1"/>
+	<vehicle id="bus_1_11450" type="bus_1_1"/>
+	<vehicle id="bus_1_11465" type="bus_1_1"/>
+	<vehicle id="bus_1_2340" type="bus_1_2"/>
+	<vehicle id="bus_1_2355" type="bus_1_2"/>
+	<vehicle id="bus_1_2370" type="bus_1_2"/>
+	<vehicle id="bus_1_2385" type="bus_1_2"/>
+	<vehicle id="bus_1_2400" type="bus_1_2"/>
+	<vehicle id="bus_1_2415" type="bus_1_2"/>
+	<vehicle id="bus_1_2430" type="bus_1_2"/>
+	<vehicle id="bus_1_2445" type="bus_1_2"/>
+	<vehicle id="bus_1_2460" type="bus_1_2"/>
+	<vehicle id="bus_1_2475" type="bus_1_2"/>
+	<vehicle id="bus_1_2490" type="bus_1_2"/>
+	<vehicle id="bus_1_2505" type="bus_1_2"/>
+	<vehicle id="bus_1_2520" type="bus_1_2"/>
+	<vehicle id="bus_1_2535" type="bus_1_2"/>
+	<vehicle id="bus_1_2550" type="bus_1_2"/>
+	<vehicle id="bus_1_2565" type="bus_1_2"/>
+	<vehicle id="bus_1_2580" type="bus_1_2"/>
+	<vehicle id="bus_1_2595" type="bus_1_2"/>
+	<vehicle id="bus_1_2610" type="bus_1_2"/>
+	<vehicle id="bus_1_2625" type="bus_1_2"/>
+	<vehicle id="bus_1_2640" type="bus_1_2"/>
+	<vehicle id="bus_1_2655" type="bus_1_2"/>
+	<vehicle id="bus_1_2670" type="bus_1_2"/>
+	<vehicle id="bus_1_2685" type="bus_1_2"/>
+	<vehicle id="bus_1_2700" type="bus_1_2"/>
+	<vehicle id="bus_1_2715" type="bus_1_2"/>
+	<vehicle id="bus_1_2730" type="bus_1_2"/>
+	<vehicle id="bus_1_2745" type="bus_1_2"/>
+	<vehicle id="bus_1_2760" type="bus_1_2"/>
+	<vehicle id="bus_1_2775" type="bus_1_2"/>
+	<vehicle id="bus_1_2790" type="bus_1_2"/>
+	<vehicle id="bus_1_2805" type="bus_1_2"/>
+	<vehicle id="bus_1_2820" type="bus_1_2"/>
+	<vehicle id="bus_1_2835" type="bus_1_2"/>
+	<vehicle id="bus_1_2850" type="bus_1_2"/>
+	<vehicle id="bus_1_2865" type="bus_1_2"/>
+	<vehicle id="bus_1_2880" type="bus_1_2"/>
+	<vehicle id="bus_1_2895" type="bus_1_2"/>
+	<vehicle id="bus_1_2910" type="bus_1_2"/>
+	<vehicle id="bus_1_2925" type="bus_1_2"/>
+	<vehicle id="bus_1_2940" type="bus_1_2"/>
+	<vehicle id="bus_1_2955" type="bus_1_2"/>
+	<vehicle id="bus_1_2970" type="bus_1_2"/>
+	<vehicle id="bus_1_2985" type="bus_1_2"/>
+	<vehicle id="bus_1_21000" type="bus_1_2"/>
+	<vehicle id="bus_1_21015" type="bus_1_2"/>
+	<vehicle id="bus_1_21030" type="bus_1_2"/>
+	<vehicle id="bus_1_21045" type="bus_1_2"/>
+	<vehicle id="bus_1_21060" type="bus_1_2"/>
+	<vehicle id="bus_1_21075" type="bus_1_2"/>
+	<vehicle id="bus_1_21090" type="bus_1_2"/>
+	<vehicle id="bus_1_21105" type="bus_1_2"/>
+	<vehicle id="bus_1_21120" type="bus_1_2"/>
+	<vehicle id="bus_1_21135" type="bus_1_2"/>
+	<vehicle id="bus_1_21150" type="bus_1_2"/>
+	<vehicle id="bus_1_21165" type="bus_1_2"/>
+	<vehicle id="bus_1_21180" type="bus_1_2"/>
+	<vehicle id="bus_1_21195" type="bus_1_2"/>
+	<vehicle id="bus_1_21210" type="bus_1_2"/>
+	<vehicle id="bus_1_21225" type="bus_1_2"/>
+	<vehicle id="bus_1_21240" type="bus_1_2"/>
+	<vehicle id="bus_1_21255" type="bus_1_2"/>
+	<vehicle id="bus_1_21270" type="bus_1_2"/>
+	<vehicle id="bus_1_21285" type="bus_1_2"/>
+	<vehicle id="bus_1_21300" type="bus_1_2"/>
+	<vehicle id="bus_1_21315" type="bus_1_2"/>
+	<vehicle id="bus_1_21330" type="bus_1_2"/>
+	<vehicle id="bus_1_21345" type="bus_1_2"/>
+	<vehicle id="bus_1_21360" type="bus_1_2"/>
+	<vehicle id="bus_1_21375" type="bus_1_2"/>
+	<vehicle id="bus_1_21390" type="bus_1_2"/>
+	<vehicle id="bus_1_21405" type="bus_1_2"/>
+	<vehicle id="bus_1_21420" type="bus_1_2"/>
+	<vehicle id="bus_1_21435" type="bus_1_2"/>
+	<vehicle id="bus_1_21450" type="bus_1_2"/>
+	<vehicle id="bus_1_21465" type="bus_1_2"/>
+</vehicleDefinitions>

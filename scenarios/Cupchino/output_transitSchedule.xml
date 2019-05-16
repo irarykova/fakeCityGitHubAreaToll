@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transitSchedule SYSTEM "http://www.matsim.org/files/dtd/transitSchedule_v1.dtd">
+
+<transitSchedule>
+	<transitStops>
+		<stopFacility id="bus_1_10" x="684376.8148318086" y="6622461.0292713735" linkRefId="-162482_0" isBlocking="false"/>
+		<stopFacility id="bus_1_11" x="684144.3592488867" y="6622069.356071355" linkRefId="-163726_0_r" isBlocking="false"/>
+		<stopFacility id="bus_1_110" x="682937.8559714823" y="6619297.133501966" linkRefId="-162988_0_r" isBlocking="false"/>
+		<stopFacility id="bus_1_111" x="683235.32040035" y="6619744.187291319" linkRefId="-162570_0" isBlocking="false"/>
+		<stopFacility id="bus_1_12" x="683932.4779979973" y="6621655.475332889" linkRefId="-163730_0_r" isBlocking="false"/>
+		<stopFacility id="bus_1_13" x="683731.2179873933" y="6621253.867305776" linkRefId="-163740_0_r" isBlocking="false"/>
+		<stopFacility id="bus_1_14" x="683747.2083023221" y="6620776.181614017" linkRefId="-161714_0" isBlocking="false"/>
+		<stopFacility id="bus_1_15" x="683484.6650701339" y="6620142.551255582" linkRefId="-163756_0_r" isBlocking="false"/>
+		<stopFacility id="bus_1_16" x="682906.1511300554" y="6620347.878701591" linkRefId="-163798_0_r" isBlocking="false"/>
+		<stopFacility id="bus_1_17" x="682578.1929315942" y="6620065.254093099" linkRefId="-163792_0_r" isBlocking="false"/>
+		<stopFacility id="bus_1_18" x="682430.322440861" y="6619744.297275439" linkRefId="-163010_0_r" isBlocking="false"/>
+		<stopFacility id="bus_1_19" x="682303.3063804322" y="6619439.480630193" linkRefId="-163024_0" isBlocking="false"/>
+		<stopFacility id="bus_1_20" x="683513.5201103683" y="6620162.344512563" linkRefId="-163750_0" isBlocking="false"/>
+		<stopFacility id="bus_1_21" x="683739.2085946121" y="6620805.756271348" linkRefId="-161716_0" isBlocking="false"/>
+		<stopFacility id="bus_1_22" x="683741.566651357" y="6621274.61519097" linkRefId="-163736_0" isBlocking="false"/>
+		<stopFacility id="bus_1_23" x="683949.3809147335" y="6621688.8076865375" linkRefId="-163730_1" isBlocking="false"/>
+		<stopFacility id="bus_1_24" x="684156.9871796493" y="6622094.182239683" linkRefId="-162468_0" isBlocking="false"/>
+		<stopFacility id="bus_1_25" x="684397.5872878833" y="6622478.346122865" linkRefId="-162496_0_r" isBlocking="false"/>
+		<stopFacility id="train_10" x="689955.1234898411" y="6629603.50308691" linkRefId="-159638_0_r" isBlocking="false"/>
+		<stopFacility id="train_11" x="687718.5721377803" y="6626234.878768757" linkRefId="-160706_0_r" isBlocking="false"/>
+		<stopFacility id="train_12" x="684422.556808" y="6621356.1295675" linkRefId="-3333" isBlocking="false"/>
+		<stopFacility id="train_13" x="683452.804855888" y="6619928.400338268" linkRefId="-160698_0_r" isBlocking="false"/>
+		<stopFacility id="train_14" x="681379.9329861903" y="6616359.094230568" linkRefId="-160700_0_r" isBlocking="false"/>
+		<stopFacility id="train_20" x="681379.9329861903" y="6616359.094230568" linkRefId="-160700_0" isBlocking="false"/>
+		<stopFacility id="train_21" x="683452.804855888" y="6619928.400338268" linkRefId="-160698_0" isBlocking="false"/>
+		<stopFacility id="train_22" x="684422.556808" y="6621356.1295675" linkRefId="5555" isBlocking="false"/>
+		<stopFacility id="train_23" x="687718.5721377803" y="6626234.878768757" linkRefId="-160706_0" isBlocking="false"/>
+		<stopFacility id="train_24" x="689955.1234898411" y="6629603.50308691" linkRefId="-159638_0" isBlocking="false"/>
+	</transitStops>
+	<transitLine id="bus_1_1">
+		<transitRoute id="bus_1_1">
+			<transportMode>bus</transportMode>
+			<routeProfile>
+				<stop refId="bus_1_10" arrivalOffset="00:00:00" departureOffset="00:00:20" awaitDeparture="true"/>
+				<stop refId="bus_1_11" arrivalOffset="00:00:32" departureOffset="00:00:52" awaitDeparture="true"/>
+				<stop refId="bus_1_12" arrivalOffset="00:01:06" departureOffset="00:01:26" awaitDeparture="true"/>
+				<stop refId="bus_1_13" arrivalOffset="00:01:38" departureOffset="00:01:58" awaitDeparture="true"/>
+				<stop refId="bus_1_14" arrivalOffset="00:02:13" departureOffset="00:02:33" awaitDeparture="true"/>
+				<stop refId="bus_1_15" arrivalOffset="00:03:02" departureOffset="00:03:22" awaitDeparture="true"/>
+				<stop refId="bus_1_16" arrivalOffset="00:03:46" departureOffset="00:04:06" awaitDeparture="true"/>
+				<stop refId="bus_1_17" arrivalOffset="00:04:17" departureOffset="00:04:37" awaitDeparture="true"/>
+				<stop refId="bus_1_18" arrivalOffset="00:04:43" departureOffset="00:05:03" awaitDeparture="true"/>
+				<stop refId="bus_1_19" arrivalOffset="00:05:06" departureOffset="00:05:26" awaitDeparture="true"/>
+				<stop refId="bus_1_110" arrivalOffset="00:05:53" departureOffset="00:06:13" awaitDeparture="true"/>
+				<stop refId="bus_1_111" arrivalOffset="00:06:32" departureOffset="00:06:52" awaitDeparture="true"/>
+			</routeProfile>
+			<route>
+				<link refId="-162454_0"/>
+				<link refId="-162476_0"/>
+				<link refId="-162480_0"/>
+				<link refId="-162466_0"/>
+				<link refId="-162472_0"/>
+				<link refId="-162470_0"/>
+				<link refId="-162492_0"/>
+				<link refId="-162490_0"/>
+				<link refId="-162496_0"/>
+				<link refId="-162482_0"/>
+				<link refId="-162488_0"/>
+				<link refId="-162510_0"/>
+				<link refId="-162500_0"/>
+				<link refId="-162498_0"/>
+				<link refId="-162504_0"/>
+				<link refId="-162524_0"/>
+				<link refId="-163718_0_r"/>
+				<link refId="-163716_0_r"/>
+				<link refId="-162468_0_r"/>
+				<link refId="-163726_0_r"/>
+				<link refId="-163724_0_r"/>
+				<link refId="-163734_1_r"/>
+				<link refId="-163734_0_r"/>
+				<link refId="-163732_0_r"/>
+				<link refId="-163730_1_r"/>
+				<link refId="-163730_0_r"/>
+				<link refId="-163728_0_r"/>
+				<link refId="-162992_1_r"/>
+				<link refId="-162992_0_r"/>
+				<link refId="-163738_0_r"/>
+				<link refId="-163736_0_r"/>
+				<link refId="-163740_0_r"/>
+				<link refId="-162692_0_r"/>
+				<link refId="-162694_0_r"/>
+				<link refId="-162690_0_r"/>
+				<link refId="-162056_0_r"/>
+				<link refId="-162042_0_r"/>
+				<link refId="-162034_0_r"/>
+				<link refId="-161980_0_r"/>
+				<link refId="-161948_0_r"/>
+				<link refId="-161908_0_r"/>
+				<link refId="-161826_0_r"/>
+				<link refId="-161788_0_r"/>
+				<link refId="-163744_0_r"/>
+				<link refId="-163742_0_r"/>
+				<link refId="-161716_0_r"/>
+				<link refId="-161714_0"/>
+				<link refId="-161786_0"/>
+				<link refId="-161824_0"/>
+				<link refId="-161906_0"/>
+				<link refId="-161946_0"/>
+				<link refId="-161734_0_r"/>
+				<link refId="-161680_0_r"/>
+				<link refId="-161678_0"/>
+				<link refId="-161740_0"/>
+				<link refId="-161778_0"/>
+				<link refId="-161838_0"/>
+				<link refId="-161928_0"/>
+				<link refId="-161964_0"/>
+				<link refId="-162022_0"/>
+				<link refId="-162936_0_r"/>
+				<link refId="-163338_0_r"/>
+				<link refId="-163336_0"/>
+				<link refId="-163746_0"/>
+				<link refId="-163748_0"/>
+				<link refId="-162566_0_r"/>
+				<link refId="-163752_0_r"/>
+				<link refId="-163750_0_r"/>
+				<link refId="-162568_0_r"/>
+				<link refId="-163756_0_r"/>
+				<link refId="-163754_0_r"/>
+				<link refId="-161566_0_r"/>
+				<link refId="-161560_0_r"/>
+				<link refId="-161562_0_r"/>
+				<link refId="-161540_0_r"/>
+				<link refId="-161542_0_r"/>
+				<link refId="-161536_0_r"/>
+				<link refId="-161548_0_r"/>
+				<link refId="-161544_0_r"/>
+				<link refId="-161524_0_r"/>
+				<link refId="-161520_0_r"/>
+				<link refId="-161532_0_r"/>
+				<link refId="-161528_0_r"/>
+				<link refId="-161508_0_r"/>
+				<link refId="-161516_0_r"/>
+				<link refId="-163804_0_r"/>
+				<link refId="-163802_0_r"/>
+				<link refId="-163800_0_r"/>
+				<link refId="-163798_0_r"/>
+				<link refId="-161518_0_r"/>
+				<link refId="-161512_0_r"/>
+				<link refId="-161514_0_r"/>
+				<link refId="-161494_0_r"/>
+				<link refId="-161496_0_r"/>
+				<link refId="-161490_0_r"/>
+				<link refId="-161492_0_r"/>
+				<link refId="-161502_0_r"/>
+				<link refId="-161504_0_r"/>
+				<link refId="-161498_0_r"/>
+				<link refId="-161500_0_r"/>
+				<link refId="-163038_0_r"/>
+				<link refId="-163028_0_r"/>
+				<link refId="-163030_0_r"/>
+				<link refId="-163018_0_r"/>
+				<link refId="-163796_0_r"/>
+				<link refId="-163794_0_r"/>
+				<link refId="-163022_0_r"/>
+				<link refId="-163792_0_r"/>
+				<link refId="-163790_0_r"/>
+				<link refId="-163010_1_r"/>
+				<link refId="-163010_0_r"/>
+				<link refId="-163788_0_r"/>
+				<link refId="-163786_0_r"/>
+				<link refId="-163784_0_r"/>
+				<link refId="-163782_0_r"/>
+				<link refId="-163006_0_r"/>
+				<link refId="-163002_0_r"/>
+				<link refId="-163004_0"/>
+				<link refId="-163008_0"/>
+				<link refId="-163012_0"/>
+				<link refId="-163016_0"/>
+				<link refId="-163014_0"/>
+				<link refId="-163024_0"/>
+				<link refId="-163020_0"/>
+				<link refId="-163026_0"/>
+				<link refId="-163042_0"/>
+				<link refId="-161478_0_r"/>
+				<link refId="-161480_0_r"/>
+				<link refId="-161474_0_r"/>
+				<link refId="-161476_0_r"/>
+				<link refId="-161486_0_r"/>
+				<link refId="-161488_0_r"/>
+				<link refId="-161482_0_r"/>
+				<link refId="-161484_0_r"/>
+				<link refId="-161462_0_r"/>
+				<link refId="-161464_0_r"/>
+				<link refId="-161460_0_r"/>
+				<link refId="-161468_0_r"/>
+				<link refId="-161444_0_r"/>
+				<link refId="-161456_0_r"/>
+				<link refId="-161452_0_r"/>
+				<link refId="-161432_0_r"/>
+				<link refId="-161428_0_r"/>
+				<link refId="-161436_0_r"/>
+				<link refId="-161418_0_r"/>
+				<link refId="-161424_0_r"/>
+				<link refId="-161422_0_r"/>
+				<link refId="-161396_0_r"/>
+				<link refId="-161410_0_r"/>
+				<link refId="-163780_0_r"/>
+				<link refId="-163778_0_r"/>
+				<link refId="-161404_0_r"/>
+				<link refId="-162988_0_r"/>
+				<link refId="-163772_0_r"/>
+				<link refId="-163770_0_r"/>
+				<link refId="-163768_0_r"/>
+				<link refId="-163766_0_r"/>
+				<link refId="-162576_0_r"/>
+				<link refId="-162570_0"/>
+				<link refId="-163762_0"/>
+				<link refId="-163764_0"/>
+				<link refId="-162564_0"/>
+				<link refId="-163758_0"/>
+				<link refId="-163760_0"/>
+			</route>
+			<departures>
+				<departure id="bus_1_11000" departureTime="16:40:00" vehicleRefId="bus_1_11000"/>
+				<departure id="bus_1_11015" departureTime="16:55:00" vehicleRefId="bus_1_11015"/>
+				<departure id="bus_1_11030" departureTime="17:10:00" vehicleRefId="bus_1_11030"/>
+				<departure id="bus_1_11045" departureTime="17:25:00" vehicleRefId="bus_1_11045"/>
+				<departure id="bus_1_11060" departureTime="17:40:00" vehicleRefId="bus_1_11060"/>
+				<departure id="bus_1_11075" departureTime="17:55:00" vehicleRefId="bus_1_11075"/>
+				<departure id="bus_1_11090" departureTime="18:10:00" vehicleRefId="bus_1_11090"/>
+				<departure id="bus_1_11105" departureTime="18:25:00" vehicleRefId="bus_1_11105"/>
+				<departure id="bus_1_11120" departureTime="18:40:00" vehicleRefId="bus_1_11120"/>
+				<departure id="bus_1_11135" departureTime="18:55:00" vehicleRefId="bus_1_11135"/>
+				<departure id="bus_1_11150" departureTime="19:10:00" vehicleRefId="bus_1_11150"/>
+				<departure id="bus_1_11165" departureTime="19:25:00" vehicleRefId="bus_1_11165"/>
+				<departure id="bus_1_11180" departureTime="19:40:00" vehicleRefId="bus_1_11180"/>
+				<departure id="bus_1_11195" departureTime="19:55:00" vehicleRefId="bus_1_11195"/>
+				<departure id="bus_1_11210" departureTime="20:10:00" vehicleRefId="bus_1_11210"/>
+				<departure id="bus_1_11225" departureTime="20:25:00" vehicleRefId="bus_1_11225"/>
+				<departure id="bus_1_11240" departureTime="20:40:00" vehicleRefId="bus_1_11240"/>
+				<departure id="bus_1_11255" departureTime="20:55:00" vehicleRefId="bus_1_11255"/>
+				<departure id="bus_1_11270" departureTime="21:10:00" vehicleRefId="bus_1_11270"/>
+				<departure id="bus_1_11285" departureTime="21:25:00" vehicleRefId="bus_1_11285"/>
+				<departure id="bus_1_11300" departureTime="21:40:00" vehicleRefId="bus_1_11300"/>
+				<departure id="bus_1_11315" departureTime="21:55:00" vehicleRefId="bus_1_11315"/>
+				<departure id="bus_1_11330" departureTime="22:10:00" vehicleRefId="bus_1_11330"/>
+				<departure id="bus_1_11345" departureTime="22:25:00" vehicleRefId="bus_1_11345"/>
+				<departure id="bus_1_11360" departureTime="22:40:00" vehicleRefId="bus_1_11360"/>
+				<departure id="bus_1_11375" departureTime="22:55:00" vehicleRefId="bus_1_11375"/>
+				<departure id="bus_1_11390" departureTime="23:10:00" vehicleRefId="bus_1_11390"/>
+				<departure id="bus_1_11405" departureTime="23:25:00" vehicleRefId="bus_1_11405"/>
+				<departure id="bus_1_11420" departureTime="23:40:00" vehicleRefId="bus_1_11420"/>
+				<departure id="bus_1_11435" departureTime="23:55:00" vehicleRefId="bus_1_11435"/>
+				<departure id="bus_1_11450" departureTime="24:10:00" vehicleRefId="bus_1_11450"/>
+				<departure id="bus_1_11465" departureTime="24:25:00" vehicleRefId="bus_1_11465"/>
+				<departure id="bus_1_1340" departureTime="05:40:00" vehicleRefId="bus_1_1340"/>
+				<departure id="bus_1_1355" departureTime="05:55:00" vehicleRefId="bus_1_1355"/>
+				<departure id="bus_1_1370" departureTime="06:10:00" vehicleRefId="bus_1_1370"/>
+				<departure id="bus_1_1385" departureTime="06:25:00" vehicleRefId="bus_1_1385"/>
+				<departure id="bus_1_1400" departureTime="06:40:00" vehicleRefId="bus_1_1400"/>
+				<departure id="bus_1_1415" departureTime="06:55:00" vehicleRefId="bus_1_1415"/>
+				<departure id="bus_1_1430" departureTime="07:10:00" vehicleRefId="bus_1_1430"/>
+				<departure id="bus_1_1445" departureTime="07:25:00" vehicleRefId="bus_1_1445"/>
+				<departure id="bus_1_1460" departureTime="07:40:00" vehicleRefId="bus_1_1460"/>
+				<departure id="bus_1_1475" departureTime="07:55:00" vehicleRefId="bus_1_1475"/>
+				<departure id="bus_1_1490" departureTime="08:10:00" vehicleRefId="bus_1_1490"/>
+				<departure id="bus_1_1505" departureTime="08:25:00" vehicleRefId="bus_1_1505"/>
+				<departure id="bus_1_1520" departureTime="08:40:00" vehicleRefId="bus_1_1520"/>
+				<departure id="bus_1_1535" departureTime="08:55:00" vehicleRefId="bus_1_1535"/>
+				<departure id="bus_1_1550" departureTime="09:10:00" vehicleRefId="bus_1_1550"/>
+				<departure id="bus_1_1565" departureTime="09:25:00" vehicleRefId="bus_1_1565"/>
+				<departure id="bus_1_1580" departureTime="09:40:00" vehicleRefId="bus_1_1580"/>
+				<departure id="bus_1_1595" departureTime="09:55:00" vehicleRefId="bus_1_1595"/>
+				<departure id="bus_1_1610" departureTime="10:10:00" vehicleRefId="bus_1_1610"/>
+				<departure id="bus_1_1625" departureTime="10:25:00" vehicleRefId="bus_1_1625"/>
+				<departure id="bus_1_1640" departureTime="10:40:00" vehicleRefId="bus_1_1640"/>
+				<departure id="bus_1_1655" departureTime="10:55:00" vehicleRefId="bus_1_1655"/>
+				<departure id="bus_1_1670" departureTime="11:10:00" vehicleRefId="bus_1_1670"/>
+				<departure id="bus_1_1685" departureTime="11:25:00" vehicleRefId="bus_1_1685"/>
+				<departure id="bus_1_1700" departureTime="11:40:00" vehicleRefId="bus_1_1700"/>
+				<departure id="bus_1_1715" departureTime="11:55:00" vehicleRefId="bus_1_1715"/>
+				<departure id="bus_1_1730" departureTime="12:10:00" vehicleRefId="bus_1_1730"/>
+				<departure id="bus_1_1745" departureTime="12:25:00" vehicleRefId="bus_1_1745"/>
+				<departure id="bus_1_1760" departureTime="12:40:00" vehicleRefId="bus_1_1760"/>
+				<departure id="bus_1_1775" departureTime="12:55:00" vehicleRefId="bus_1_1775"/>
+				<departure id="bus_1_1790" departureTime="13:10:00" vehicleRefId="bus_1_1790"/>
+				<departure id="bus_1_1805" departureTime="13:25:00" vehicleRefId="bus_1_1805"/>
+				<departure id="bus_1_1820" departureTime="13:40:00" vehicleRefId="bus_1_1820"/>
+				<departure id="bus_1_1835" departureTime="13:55:00" vehicleRefId="bus_1_1835"/>
+				<departure id="bus_1_1850" departureTime="14:10:00" vehicleRefId="bus_1_1850"/>
+				<departure id="bus_1_1865" departureTime="14:25:00" vehicleRefId="bus_1_1865"/>
+				<departure id="bus_1_1880" departureTime="14:40:00" vehicleRefId="bus_1_1880"/>
+				<departure id="bus_1_1895" departureTime="14:55:00" vehicleRefId="bus_1_1895"/>
+				<departure id="bus_1_1910" departureTime="15:10:00" vehicleRefId="bus_1_1910"/>
+				<departure id="bus_1_1925" departureTime="15:25:00" vehicleRefId="bus_1_1925"/>
+				<departure id="bus_1_1940" departureTime="15:40:00" vehicleRefId="bus_1_1940"/>
+				<departure id="bus_1_1955" departureTime="15:55:00" vehicleRefId="bus_1_1955"/>
+				<departure id="bus_1_1970" departureTime="16:10:00" vehicleRefId="bus_1_1970"/>
+				<departure id="bus_1_1985" departureTime="16:25:00" vehicleRefId="bus_1_1985"/>
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="bus_1_2">
+		<transitRoute id="bus_1_2">
+			<transportMode>bus</transportMode>
+			<routeProfile>
+				<stop refId="bus_1_20" arrivalOffset="00:00:00" departureOffset="00:00:20" awaitDeparture="true"/>
+				<stop refId="bus_1_21" arrivalOffset="00:00:49" departureOffset="00:01:09" awaitDeparture="true"/>
+				<stop refId="bus_1_22" arrivalOffset="00:01:22" departureOffset="00:01:42" awaitDeparture="true"/>
+				<stop refId="bus_1_23" arrivalOffset="00:01:56" departureOffset="00:02:16" awaitDeparture="true"/>
+				<stop refId="bus_1_24" arrivalOffset="00:02:29" departureOffset="00:02:49" awaitDeparture="true"/>
+				<stop refId="bus_1_25" arrivalOffset="00:03:01" departureOffset="00:03:21" awaitDeparture="true"/>
+			</routeProfile>
+			<route>
+				<link refId="-162568_0"/>
+				<link refId="-163750_0"/>
+				<link refId="-163752_0"/>
+				<link refId="-162566_0"/>
+				<link refId="-163748_0_r"/>
+				<link refId="-163746_0_r"/>
+				<link refId="-163336_0_r"/>
+				<link refId="-163338_0"/>
+				<link refId="-162936_0"/>
+				<link refId="-162022_0_r"/>
+				<link refId="-161964_0_r"/>
+				<link refId="-161928_0_r"/>
+				<link refId="-161838_0_r"/>
+				<link refId="-161778_0_r"/>
+				<link refId="-161740_0_r"/>
+				<link refId="-161678_0_r"/>
+				<link refId="-161680_0"/>
+				<link refId="-161734_0"/>
+				<link refId="-161946_0_r"/>
+				<link refId="-161906_0_r"/>
+				<link refId="-161824_0_r"/>
+				<link refId="-161786_0_r"/>
+				<link refId="-161714_0_r"/>
+				<link refId="-161716_0"/>
+				<link refId="-163742_0"/>
+				<link refId="-163744_0"/>
+				<link refId="-161788_0"/>
+				<link refId="-161826_0"/>
+				<link refId="-161908_0"/>
+				<link refId="-161948_0"/>
+				<link refId="-161980_0"/>
+				<link refId="-162034_0"/>
+				<link refId="-162042_0"/>
+				<link refId="-162056_0"/>
+				<link refId="-162690_0"/>
+				<link refId="-162694_0"/>
+				<link refId="-162692_0"/>
+				<link refId="-163740_0"/>
+				<link refId="-163736_0"/>
+				<link refId="-163738_0"/>
+				<link refId="-162992_0"/>
+				<link refId="-162992_1"/>
+				<link refId="-163728_0"/>
+				<link refId="-163730_0"/>
+				<link refId="-163730_1"/>
+				<link refId="-163732_0"/>
+				<link refId="-163734_0"/>
+				<link refId="-163734_1"/>
+				<link refId="-163724_0"/>
+				<link refId="-163726_0"/>
+				<link refId="-162468_0"/>
+				<link refId="-163716_0"/>
+				<link refId="-163718_0"/>
+				<link refId="-162524_0_r"/>
+				<link refId="-162504_0_r"/>
+				<link refId="-162498_0_r"/>
+				<link refId="-162500_0_r"/>
+				<link refId="-162510_0_r"/>
+				<link refId="-162488_0_r"/>
+				<link refId="-162482_0_r"/>
+				<link refId="-162496_0_r"/>
+				<link refId="-162490_0_r"/>
+				<link refId="-162492_0_r"/>
+				<link refId="-162470_0_r"/>
+				<link refId="-162472_0_r"/>
+				<link refId="-162466_0_r"/>
+				<link refId="-162480_0_r"/>
+				<link refId="-162476_0_r"/>
+				<link refId="-162454_0_r"/>
+			</route>
+			<departures>
+				<departure id="bus_1_21000" departureTime="16:40:00" vehicleRefId="bus_1_21000"/>
+				<departure id="bus_1_21015" departureTime="16:55:00" vehicleRefId="bus_1_21015"/>
+				<departure id="bus_1_21030" departureTime="17:10:00" vehicleRefId="bus_1_21030"/>
+				<departure id="bus_1_21045" departureTime="17:25:00" vehicleRefId="bus_1_21045"/>
+				<departure id="bus_1_21060" departureTime="17:40:00" vehicleRefId="bus_1_21060"/>
+				<departure id="bus_1_21075" departureTime="17:55:00" vehicleRefId="bus_1_21075"/>
+				<departure id="bus_1_21090" departureTime="18:10:00" vehicleRefId="bus_1_21090"/>
+				<departure id="bus_1_21105" departureTime="18:25:00" vehicleRefId="bus_1_21105"/>
+				<departure id="bus_1_21120" departureTime="18:40:00" vehicleRefId="bus_1_21120"/>
+				<departure id="bus_1_21135" departureTime="18:55:00" vehicleRefId="bus_1_21135"/>
+				<departure id="bus_1_21150" departureTime="19:10:00" vehicleRefId="bus_1_21150"/>
+				<departure id="bus_1_21165" departureTime="19:25:00" vehicleRefId="bus_1_21165"/>
+				<departure id="bus_1_21180" departureTime="19:40:00" vehicleRefId="bus_1_21180"/>
+				<departure id="bus_1_21195" departureTime="19:55:00" vehicleRefId="bus_1_21195"/>
+				<departure id="bus_1_21210" departureTime="20:10:00" vehicleRefId="bus_1_21210"/>
+				<departure id="bus_1_21225" departureTime="20:25:00" vehicleRefId="bus_1_21225"/>
+				<departure id="bus_1_21240" departureTime="20:40:00" vehicleRefId="bus_1_21240"/>
+				<departure id="bus_1_21255" departureTime="20:55:00" vehicleRefId="bus_1_21255"/>
+				<departure id="bus_1_21270" departureTime="21:10:00" vehicleRefId="bus_1_21270"/>
+				<departure id="bus_1_21285" departureTime="21:25:00" vehicleRefId="bus_1_21285"/>
+				<departure id="bus_1_21300" departureTime="21:40:00" vehicleRefId="bus_1_21300"/>
+				<departure id="bus_1_21315" departureTime="21:55:00" vehicleRefId="bus_1_21315"/>
+				<departure id="bus_1_21330" departureTime="22:10:00" vehicleRefId="bus_1_21330"/>
+				<departure id="bus_1_21345" departureTime="22:25:00" vehicleRefId="bus_1_21345"/>
+				<departure id="bus_1_21360" departureTime="22:40:00" vehicleRefId="bus_1_21360"/>
+				<departure id="bus_1_21375" departureTime="22:55:00" vehicleRefId="bus_1_21375"/>
+				<departure id="bus_1_21390" departureTime="23:10:00" vehicleRefId="bus_1_21390"/>
+				<departure id="bus_1_21405" departureTime="23:25:00" vehicleRefId="bus_1_21405"/>
+				<departure id="bus_1_21420" departureTime="23:40:00" vehicleRefId="bus_1_21420"/>
+				<departure id="bus_1_21435" departureTime="23:55:00" vehicleRefId="bus_1_21435"/>
+				<departure id="bus_1_21450" departureTime="24:10:00" vehicleRefId="bus_1_21450"/>
+				<departure id="bus_1_21465" departureTime="24:25:00" vehicleRefId="bus_1_21465"/>
+				<departure id="bus_1_2340" departureTime="05:40:00" vehicleRefId="bus_1_2340"/>
+				<departure id="bus_1_2355" departureTime="05:55:00" vehicleRefId="bus_1_2355"/>
+				<departure id="bus_1_2370" departureTime="06:10:00" vehicleRefId="bus_1_2370"/>
+				<departure id="bus_1_2385" departureTime="06:25:00" vehicleRefId="bus_1_2385"/>
+				<departure id="bus_1_2400" departureTime="06:40:00" vehicleRefId="bus_1_2400"/>
+				<departure id="bus_1_2415" departureTime="06:55:00" vehicleRefId="bus_1_2415"/>
+				<departure id="bus_1_2430" departureTime="07:10:00" vehicleRefId="bus_1_2430"/>
+				<departure id="bus_1_2445" departureTime="07:25:00" vehicleRefId="bus_1_2445"/>
+				<departure id="bus_1_2460" departureTime="07:40:00" vehicleRefId="bus_1_2460"/>
+				<departure id="bus_1_2475" departureTime="07:55:00" vehicleRefId="bus_1_2475"/>
+				<departure id="bus_1_2490" departureTime="08:10:00" vehicleRefId="bus_1_2490"/>
+				<departure id="bus_1_2505" departureTime="08:25:00" vehicleRefId="bus_1_2505"/>
+				<departure id="bus_1_2520" departureTime="08:40:00" vehicleRefId="bus_1_2520"/>
+				<departure id="bus_1_2535" departureTime="08:55:00" vehicleRefId="bus_1_2535"/>
+				<departure id="bus_1_2550" departureTime="09:10:00" vehicleRefId="bus_1_2550"/>
+				<departure id="bus_1_2565" departureTime="09:25:00" vehicleRefId="bus_1_2565"/>
+				<departure id="bus_1_2580" departureTime="09:40:00" vehicleRefId="bus_1_2580"/>
+				<departure id="bus_1_2595" departureTime="09:55:00" vehicleRefId="bus_1_2595"/>
+				<departure id="bus_1_2610" departureTime="10:10:00" vehicleRefId="bus_1_2610"/>
+				<departure id="bus_1_2625" departureTime="10:25:00" vehicleRefId="bus_1_2625"/>
+				<departure id="bus_1_2640" departureTime="10:40:00" vehicleRefId="bus_1_2640"/>
+				<departure id="bus_1_2655" departureTime="10:55:00" vehicleRefId="bus_1_2655"/>
+				<departure id="bus_1_2670" departureTime="11:10:00" vehicleRefId="bus_1_2670"/>
+				<departure id="bus_1_2685" departureTime="11:25:00" vehicleRefId="bus_1_2685"/>
+				<departure id="bus_1_2700" departureTime="11:40:00" vehicleRefId="bus_1_2700"/>
+				<departure id="bus_1_2715" departureTime="11:55:00" vehicleRefId="bus_1_2715"/>
+				<departure id="bus_1_2730" departureTime="12:10:00" vehicleRefId="bus_1_2730"/>
+				<departure id="bus_1_2745" departureTime="12:25:00" vehicleRefId="bus_1_2745"/>
+				<departure id="bus_1_2760" departureTime="12:40:00" vehicleRefId="bus_1_2760"/>
+				<departure id="bus_1_2775" departureTime="12:55:00" vehicleRefId="bus_1_2775"/>
+				<departure id="bus_1_2790" departureTime="13:10:00" vehicleRefId="bus_1_2790"/>
+				<departure id="bus_1_2805" departureTime="13:25:00" vehicleRefId="bus_1_2805"/>
+				<departure id="bus_1_2820" departureTime="13:40:00" vehicleRefId="bus_1_2820"/>
+				<departure id="bus_1_2835" departureTime="13:55:00" vehicleRefId="bus_1_2835"/>
+				<departure id="bus_1_2850" departureTime="14:10:00" vehicleRefId="bus_1_2850"/>
+				<departure id="bus_1_2865" departureTime="14:25:00" vehicleRefId="bus_1_2865"/>
+				<departure id="bus_1_2880" departureTime="14:40:00" vehicleRefId="bus_1_2880"/>
+				<departure id="bus_1_2895" departureTime="14:55:00" vehicleRefId="bus_1_2895"/>
+				<departure id="bus_1_2910" departureTime="15:10:00" vehicleRefId="bus_1_2910"/>
+				<departure id="bus_1_2925" departureTime="15:25:00" vehicleRefId="bus_1_2925"/>
+				<departure id="bus_1_2940" departureTime="15:40:00" vehicleRefId="bus_1_2940"/>
+				<departure id="bus_1_2955" departureTime="15:55:00" vehicleRefId="bus_1_2955"/>
+				<departure id="bus_1_2970" departureTime="16:10:00" vehicleRefId="bus_1_2970"/>
+				<departure id="bus_1_2985" departureTime="16:25:00" vehicleRefId="bus_1_2985"/>
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="train_1">
+		<transitRoute id="train_1">
+			<transportMode>train</transportMode>
+			<routeProfile>
+				<stop refId="train_10" arrivalOffset="00:00:00" departureOffset="00:00:20" awaitDeparture="true"/>
+				<stop refId="train_11" arrivalOffset="00:04:51" departureOffset="00:05:11" awaitDeparture="true"/>
+				<stop refId="train_12" arrivalOffset="00:11:55" departureOffset="00:12:15" awaitDeparture="true"/>
+				<stop refId="train_13" arrivalOffset="00:13:59" departureOffset="00:14:19" awaitDeparture="true"/>
+				<stop refId="train_14" arrivalOffset="00:18:56" departureOffset="00:19:16" awaitDeparture="true"/>
+			</routeProfile>
+			<route>
+				<link refId="-160662_0_r"/>
+				<link refId="-159834_0_r"/>
+				<link refId="-159774_0_r"/>
+				<link refId="-160660_0_r"/>
+				<link refId="-160658_0_r"/>
+				<link refId="-159758_0_r"/>
+				<link refId="-159702_0_r"/>
+				<link refId="-160656_0_r"/>
+				<link refId="-160654_0_r"/>
+				<link refId="-159688_0_r"/>
+				<link refId="-159750_0_r"/>
+				<link refId="-159670_0_r"/>
+				<link refId="-159684_0_r"/>
+				<link refId="-159812_0_r"/>
+				<link refId="-159832_0_r"/>
+				<link refId="-159736_0_r"/>
+				<link refId="-160652_0_r"/>
+				<link refId="-160650_0_r"/>
+				<link refId="-159756_0_r"/>
+				<link refId="-159680_0_r"/>
+				<link refId="-159724_0_r"/>
+				<link refId="-159638_0_r"/>
+				<link refId="-159708_0_r"/>
+				<link refId="-159824_0_r"/>
+				<link refId="-159796_0_r"/>
+				<link refId="-159664_0_r"/>
+				<link refId="-159660_0_r"/>
+				<link refId="-159716_0_r"/>
+				<link refId="-160708_0_r"/>
+				<link refId="-159818_0_r"/>
+				<link refId="-159730_0_r"/>
+				<link refId="-160644_0_r"/>
+				<link refId="-160706_0_r"/>
+				<link refId="-159648_0_r"/>
+				<link refId="-160704_0_r"/>
+				<link refId="-160766_0_r"/>
+				<link refId="-3333"/>
+				<link refId="-4444"/>
+				<link refId="-160764_0_r"/>
+				<link refId="-160702_0_r"/>
+				<link refId="-160698_0_r"/>
+				<link refId="-160646_0_r"/>
+				<link refId="-159742_0_r"/>
+				<link refId="-159780_0_r"/>
+				<link refId="-160700_0_r"/>
+				<!--link refId="-160648_0_r"/> />-->
+			</route>
+			<departures>
+				<departure id="train_11030" departureTime="17:10:00" vehicleRefId="train_11030"/>
+				<departure id="train_11090" departureTime="18:10:00" vehicleRefId="train_11090"/>
+				<departure id="train_11150" departureTime="19:10:00" vehicleRefId="train_11150"/>
+				<departure id="train_11210" departureTime="20:10:00" vehicleRefId="train_11210"/>
+				<departure id="train_11270" departureTime="21:10:00" vehicleRefId="train_11270"/>
+				<departure id="train_1310" departureTime="05:10:00" vehicleRefId="train_1310"/>
+				<departure id="train_1370" departureTime="06:10:00" vehicleRefId="train_1370"/>
+				<departure id="train_1430" departureTime="07:10:00" vehicleRefId="train_1430"/>
+				<departure id="train_1490" departureTime="08:10:00" vehicleRefId="train_1490"/>
+				<departure id="train_1550" departureTime="09:10:00" vehicleRefId="train_1550"/>
+				<departure id="train_1610" departureTime="10:10:00" vehicleRefId="train_1610"/>
+				<departure id="train_1670" departureTime="11:10:00" vehicleRefId="train_1670"/>
+				<departure id="train_1730" departureTime="12:10:00" vehicleRefId="train_1730"/>
+				<departure id="train_1790" departureTime="13:10:00" vehicleRefId="train_1790"/>
+				<departure id="train_1850" departureTime="14:10:00" vehicleRefId="train_1850"/>
+				<departure id="train_1910" departureTime="15:10:00" vehicleRefId="train_1910"/>
+				<departure id="train_1970" departureTime="16:10:00" vehicleRefId="train_1970"/>
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="train_2">
+		<transitRoute id="train_2">
+			<transportMode>train</transportMode>
+			<routeProfile>
+				<stop refId="train_20" arrivalOffset="00:00:00" departureOffset="00:00:20" awaitDeparture="true"/>
+				<stop refId="train_21" arrivalOffset="00:04:57" departureOffset="00:05:17" awaitDeparture="true"/>
+				<stop refId="train_22" arrivalOffset="00:07:01" departureOffset="00:07:21" awaitDeparture="true"/>
+				<stop refId="train_23" arrivalOffset="00:14:05" departureOffset="00:14:25" awaitDeparture="true"/>
+				<stop refId="train_24" arrivalOffset="00:18:56" departureOffset="00:19:16" awaitDeparture="true"/>
+			</routeProfile>
+			<route>
+				<!--<link refId="-160648_0"/> />-->
+				<link refId="-160700_0"/>
+				<link refId="-159780_0"/>
+				<link refId="-159742_0"/>
+				<link refId="-160646_0"/>
+				<link refId="-160698_0"/>
+				<link refId="-160702_0"/>
+				<link refId="-160764_0"/>
+				<link refId=""/>
+				<link refId="5555"/>
+				<link refId="-160766_0"/>
+				<link refId="-160704_0"/>
+				<link refId="-159648_0"/>
+				<link refId="-160706_0"/>
+				<link refId="-160644_0"/>
+				<link refId="-159730_0"/>
+				<link refId="-159818_0"/>
+				<link refId="-160708_0"/>
+				<link refId="-159716_0"/>
+				<link refId="-159660_0"/>
+				<link refId="-159664_0"/>
+				<link refId="-159796_0"/>
+				<link refId="-159824_0"/>
+				<link refId="-159708_0"/>
+				<link refId="-159638_0"/>
+				<link refId="-159724_0"/>
+				<link refId="-159680_0"/>
+				<link refId="-159756_0"/>
+				<link refId="-160650_0"/>
+				<link refId="-160652_0"/>
+				<link refId="-159736_0"/>
+				<link refId="-159832_0"/>
+				<link refId="-159812_0"/>
+				<link refId="-159684_0"/>
+				<link refId="-159670_0"/>
+				<link refId="-159750_0"/>
+				<link refId="-159688_0"/>
+				<link refId="-160654_0"/>
+				<link refId="-160656_0"/>
+				<link refId="-159702_0"/>
+				<link refId="-159758_0"/>
+				<link refId="-160658_0"/>
+				<link refId="-160660_0"/>
+				<link refId="-159774_0"/>
+				<link refId="-159834_0"/>
+				<link refId="-160662_0"/>
+			</route>
+			<departures>
+				<departure id="train_21030" departureTime="17:10:00" vehicleRefId="train_21030"/>
+				<departure id="train_21090" departureTime="18:10:00" vehicleRefId="train_21090"/>
+				<departure id="train_21150" departureTime="19:10:00" vehicleRefId="train_21150"/>
+				<departure id="train_21210" departureTime="20:10:00" vehicleRefId="train_21210"/>
+				<departure id="train_21270" departureTime="21:10:00" vehicleRefId="train_21270"/>
+				<departure id="train_2310" departureTime="05:10:00" vehicleRefId="train_2310"/>
+				<departure id="train_2370" departureTime="06:10:00" vehicleRefId="train_2370"/>
+				<departure id="train_2430" departureTime="07:10:00" vehicleRefId="train_2430"/>
+				<departure id="train_2490" departureTime="08:10:00" vehicleRefId="train_2490"/>
+				<departure id="train_2550" departureTime="09:10:00" vehicleRefId="train_2550"/>
+				<departure id="train_2610" departureTime="10:10:00" vehicleRefId="train_2610"/>
+				<departure id="train_2670" departureTime="11:10:00" vehicleRefId="train_2670"/>
+				<departure id="train_2730" departureTime="12:10:00" vehicleRefId="train_2730"/>
+				<departure id="train_2790" departureTime="13:10:00" vehicleRefId="train_2790"/>
+				<departure id="train_2850" departureTime="14:10:00" vehicleRefId="train_2850"/>
+				<departure id="train_2910" departureTime="15:10:00" vehicleRefId="train_2910"/>
+				<departure id="train_2970" departureTime="16:10:00" vehicleRefId="train_2970"/>
+			</departures>
+		</transitRoute>
+	</transitLine>
+</transitSchedule>
