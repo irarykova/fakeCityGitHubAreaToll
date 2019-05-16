@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE roadpricing SYSTEM "http://www.matsim.org/files/dtd/roadpricing_v1.dtd">
+<roadpricing type="cordon" name="equil-net cordon-toll">
+	<description>A simple cordon toll scheme for the equil-network.</description>
+	<links>
+		
+
+		<!-- zsd viezdy -->
+		<link id="81348980_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="80056745_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="28935160_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="184073602_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="183902370_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="192140957_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="252148968_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="233579_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="165031077_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="127124283_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+		<link id="236113_0">
+			<cost start_time="00:00:00" end_time="25:00:00" amount="100.00" />
+		</link>
+
+	</links>
+	<!-- [monetary unit] / [travelling across a tolled link] -->
+	<cost start_time="00:00:00" end_time="25:00:00" amount="0.0" />
+</roadpricing>
